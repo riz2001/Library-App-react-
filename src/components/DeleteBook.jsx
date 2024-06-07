@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavBar } from './NavBar'
+import NavBar from './NavBar'
 
-const SearchStudent = () => {
+const DeleteBook = () => {
   return (
     <div>
-     <NavBar/>
-     <h1 align="center">SEARCH</h1>
+        <NavBar/>
+        <h1 align="center">DELETE BOOK</h1>
         <br></br>
         <div className="container">
         <div className="row ">
@@ -17,7 +17,7 @@ const SearchStudent = () => {
                     </div>
                     <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6">
                       <center>
-                        <label htmlFor="" className="form-label"> STUDENT NAME</label>
+                        <label htmlFor="" className="form-label"> BOOK TITLE</label>
                         </center>
                         <input type="text" className="form-control" />
                     </div>
@@ -27,17 +27,16 @@ const SearchStudent = () => {
                     <center>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     
-                        <button className="btn btn-warning">SEARCH</button>
+                        <button className="btn btn-warning">DELETE</button>
                     </div>
                     </center>
                 </div>
             </div>
         </div>
       </div>
+  
     </div>
   )
 }
 
-
-
-export default SearchStudent
+export default DeleteBook
